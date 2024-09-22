@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"bs4" = "*"
+requests = "*"
+numpy = "*"
+flask-wtf = "*"
+pymongo = "*"
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]
+pandas = "*"
+numpy = "*"
+tables = "*"
